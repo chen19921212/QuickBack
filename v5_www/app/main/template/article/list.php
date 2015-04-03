@@ -65,10 +65,7 @@
                 title: '添加一篇文章',
                 border: [1, 1, '#ddd'],
                 iframe: {src : url },
-                area: ['800px' , '250px'],
-                close: function(index){
-                    window.location.reload();
-                }
+                area: ['800px' , '250px']
             });
         });
         

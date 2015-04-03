@@ -76,10 +76,7 @@
                 border: [1, 1, '#ddd'],
                 iframe: {src : url },
                 area: ['600px' , '110px'],
-                shift: 'top',
-                close: function(index){
-                    window.location.reload();
-                }
+                shift: 'top'
             });
         });
         
