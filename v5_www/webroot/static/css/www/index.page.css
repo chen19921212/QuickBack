@@ -1,0 +1,125 @@
+.index-col1 {
+    
+    float: left;
+    margin: 0 20px 0 0;
+    width: 630px;
+}
+
+.index-col1 .list-item {
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.index-col1 .list-item .title {
+    padding: 12px;
+    font-size: 20px;
+    background-color: #f5f5f5;
+}
+
+.index-col1 .list-item .title a {
+    color: #666;
+}
+
+.index-col1 .list-item .title a:hover {
+    text-decoration: underline;
+}
+
+.index-col1 .list-item-row {
+    padding: 11px;
+}
+
+.index-col1 .list-item p {
+    
+}
+
+.index-col2 {
+    float: left;
+    width: 280px;
+}
+
+.index-col2 .row-1 {
+    padding: 35px 16px 39px 16px;
+}
+
+.index-col2 .row-2 {
+    margin-top: 20px;
+    padding: 20px 16px;
+    background-color: #fff;
+}
+
+.index-col2 .row-2 .title {
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #333;
+}
+
+.index-col2 .row-2 .info {
+    padding-top: 5px;
+}
+
+.index-col2 .row-2 .info p {
+    padding-top: 5px;
+}
+
+.index-col2 .row-2 .set-email {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 0;
+    width: 115px;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-size: 14px;
+    background-color: #5497B2;
+    border-radius: 4px;
+}
+
+.index-col2 .row-2 .set-email:hover {
+    background-color: #3D809B;
+}
+
+.index-col2 .row-2 .del-email {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 0;
+    width: 115px;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.index-col2 .row-2 .del-email:hover {
+    background-color: #eee;
+}
+
+.index-col2 .row-3 {
+    margin-top: 20px;
+    padding: 20px 16px;
+    background-color: #fff;
+}
+
+.index-col2 .row-3 .title {
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #333;
+}
+
+.index-col2 .row-3 .info {
+    padding-top: 10px;
+}
+
+.index-col2 .row-3 .info .info-row a {
+    display: inline-block;
+    width: 100px;
+    padding: 3px 5px;
+    color: #333;
+}
+
+.index-col2 .row-3 .info .info-row a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,159 @@
+html, body, div, span, applet, marquee, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Consolas", "微软雅黑";
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    border: 0;
+    vertical-align: baseline;
+}
+body {
+    font: 12px "Consolas", "微软雅黑";
+}
+
+input, textarea, button, select { margin: 0; padding: 0; outline: 0; font-family: \5FAE\8F6F\96C5\9ED1; vertical-align: middle; }
+:focus { outline: 0; }
+body { background: #fff; line-height: 1.5; }
+ol, ul { list-style: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: "" }
+blockquote, q { quotes: "" "" }
+a img { border: 0; }
+img { vertical-align: middle }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+h1, h2, h3, h4, h5, h6 { font-weight: 700; line-height : 2; }
+strong { font-weight: 700 }
+cite, em { font-style: normal }
+i { font-style: italic }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td { font-weight: normal; text-align: left; vertical-align: middle; }
+th, td { border: 1px solid #999; padding: .8em }
+th { font-weight: 700; }
+caption { text-align: center }
+a { cursor: pointer; color: #25d; text-decoration: none }
+a:link, a:visited { color: #25d }
+a:hover, a:focus, a:active { color: #f00 }
+div, p { word-wrap: break-word }
+pre { color: #333; word-break: break-word; word-wrap: break-word; display: block; }
+
+.p10 { padding: 10px; }
+.mt5 { margin-top: 5px; }
+.mb5 { margin-bottom: 5px; }
+.ml5 { margin-left: 5px; }
+.mr5 { margin-right: 5px; }
+.mt10 { margin-top: 10px; }
+.mb10 { margin-bottom: 10px; }
+.ml10 { margin-left: 10px; }
+.mr10 { margin-right: 10px; }
+.mt20 { margin-top: 20px; }
+.mb20 { margin-bottom: 20px; }
+.ml20 { margin-left: 20px; }
+.mr20 { margin-right: 20px; }
+
+.ml130 { margin-left: 130px; }
+.ml150 { margin-left: 150px; }
+
+.w50 { width: 50px; }
+.w60 { width: 60px; }
+.w70 { width: 70px; }
+.w80 { width: 80px; }
+.w90 { width: 90px; }
+.w100 { width: 100px; }
+.w110 { width: 110px; }
+.w120 { width: 120px; }
+.w130 { width: 130px; }
+.w140 { width: 140px; }
+.w150 { width: 150px; }
+.w160 { width: 160px; }
+.w170 { width: 170px; }
+.w180 { width: 180px; }
+.w190 { width: 190px; }
+.w200 { width: 200px; }
+.w210 { width: 210px; }
+.w220 { width: 220px; }
+.w230 { width: 230px; }
+.w240 { width: 240px; }
+.w250 { width: 250px; }
+.w300 { width: 300px; }
+.w400 { width: 400px; }
+.w500 { width: 400px; }
+.w600 { width: 600px; }
+.w800 { width: 800px; }
+
+.f12 { font-size: 12px; }
+.f14 { font-size: 14px; }
+.f16 { font-size: 16px; }
+.f18 { font-size: 18px; }
+.f20 { font-size: 20px; }
+.f22 { font-size: 22px; }
+.f24 { font-size: 24px; }
+
+.fl { float: left; display: inline-block; }
+.fr { float: right; display: inline-block; }
+
+.hidden { display: none; }
+.print-outline { outline: #999 dashed 1px }
+
+.red { color: red; }
+.green { color: green; }
+.yellow { color: yellow; }
+.orange { color: orange; }
+.gray { color: gray; }
+.bg-gray { background-color: #f5f5f5; }
+.bg-white { background-color: #fff; }
+
+.tc { text-align: center; }
+.tl { text-align: left; }
+.tr { text-align: right; }
+.fw { font-weight: bold; }
+.placeholder { color: #aaa; }
+
+.border { border: 1px solid #ddd; }
+
+.caret {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border-width: 3px;
+    border-style: solid dashed dashed dashed;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    vertical-align: middle;
+    line-height: 0;
+    _zoom: 1;
+}
+
+.widget-form { padding: 5px 10px; vertical-align: middle; display: block; }
+.widget-form .item { padding: 5px 0; vertical-align: middle; }
+.widget-form .label { padding: 5px 1px 5px 2px; height: 22px; line-height: 22px; font-size: 14px; text-align: right; vertical-align: middle; display: inline-block; }
+.widget-form .input { padding: 4px; height: 22px; line-height: 22px; font-size: 14px; border: 1px solid #ddd; vertical-align: middle; display: inline-block; }
+.widget-form .select { padding: 4px; font-size: 14px; border: 1px solid #ddd; vertical-align: middle;  }
+.widget-form .textarea { padding: 4px; font-size: 14px; border: 1px solid #ddd; }
+.widget-form .radio, .widget-form .checkbox { height: 22px; line-height: 22px; font-size: 14px; }
+.widget-form .input:focus, .widget-form .select:focus, .widget-form .textarea:focus { border: 1px solid #7FCAF1; }
+.widget-form .btn { cursor: pointer; height: 32px; font-size: 14px; color: #333; background-color: #fcfcfc; border: 1px solid #ddd; vertical-align: middle; display: inline-block; }
+.widget-form .btn:hover { background-color: #eee; }
+.widget-form .btn-forbidden { cursor: no-drop; background-color: #eee; }
+.widget-form .btn-blue { color: #fff; background: #3385ff; border-bottom: 1px solid #2d78f4; }
+.widget-form .btn-blue:hover { background: #317ef3; border-bottom: 1px solid #2868c8; }
+.widget-form .form-error, .widget-form .help-block { padding: 2px; color: red; font-size: 12px; line-height: 1.15; vertical-align: middle; display: inline-block; }
+.widget-form .form-tip { color: gray; }
+.widget-form input[type=text].valid,
+.widget-form input[type=password].valid { background: url(/static/image/common/form/icon-ok.png) no-repeat right center #fff; }
+.widget-form input[type=text].error,
+.widget-form input[type=password].error { background: url(/static/image/common/form/icon-fail.png) no-repeat right center #ffebef; border-color: red; }
+
+.widget-table { background-color: #fff; width: 100%; text-align: left; }
+.widget-table th, .widget-table td { *word-break:break-all; border-top: 1px solid #eee; border-bottom: 1px solid #eee; border-left: 0; border-right: 0; }
+.widget-table tr:hover td { background-color: #f5f5f5; }
+
+.widget-pager { height: 34px; display: block; }
+.widget-pager li { float: left; }
+.widget-pager li .item { background-color: #f5f5f5; margin-right: 3px; cursor: pointer; width: 36px; height: 32px; line-height: 32px; font-size: 14px; text-align: center; text-decoration: none; display: inline-block; }
+.widget-pager li .item-lg { width: 60px; }
+.widget-pager li .item:hover, .widget-pager li .item.selected { background-color: #ddd; }
+.widget-pager-white li .item { background-color: #fff; }
+
+/* global icon */
